@@ -13,7 +13,8 @@ export default function ContactForm() {
   const {
     register,
     handleSubmit,
-    formState: { errors },
+    reset, // <- Reset est ici directement, pas dans formState
+    formState: { errors},
   } = useForm<FormInputs>()
 
   const onSubmit: SubmitHandler<FormInputs> = data => {
@@ -26,8 +27,9 @@ export default function ContactForm() {
         message: data.message
       },
       'gTNl5zXG8jRnzVhCG'
-    )
-  }
+    );
+    reset(); // Réinitialiser le formulaire après soumission
+  };
 
   return (
 
