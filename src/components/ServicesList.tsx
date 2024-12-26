@@ -1,24 +1,64 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Shield, Truck, TreePine } from 'lucide-react';
+import fHse from '../assets/images/services/f-hse.jpg';
+import fEngin from '../assets/images/services/f-engin.jpg';
+import fRisk from '../assets/images/services/f-risque.jpg';
 
-const services = [
+export const services = [
   {
     title: 'Formation HSE',
     description: 'Formation complète en hygiène, sécurité et environnement pour vos équipes.',
+    details: {
+      image: fHse,
+      content: `
+        <h2>Description</h2>
+        <p>Formation complète en <strong>hygiène</strong>, sécurité et environnement pour vos équipes.</p>
+        <ul>
+          <li>Risque chimique</li>
+          <li>Normes ISO</li>
+        </ul>
+      `,
+    },
     icon: Shield,
   },
   {
     title: 'Conduite d\'Engins',
     description: 'Formation à la conduite d\'engins on/offshore en toute sécurité.',
+    details:
+    {
+      image: fEngin,
+      content:
+      `  <p>Certifications disponibles :</p>
+        <ul>
+          <li>Chariot élévateur</li>
+          <li>Grue mobile</li>
+        </ul>
+      `,
+    },
+    
+     
     icon: Truck,
   },
   {
     title: 'Gestion des Risques',
     description: 'Évaluation et maîtrise des risques techniques et environnementaux.',
+    details:{
+      image: fRisk,
+      content:
+      `
+      <p></p>
+      <p>Nous couvrons :</p>
+      <ul>
+        <li>Audit de sécurité</li>
+        <li>Plan de prévention</li>
+      </ul>
+    `,
+    },
     icon: TreePine,
   },
 ];
+
 
 export default function ServicesList() {
   return (
@@ -35,7 +75,8 @@ export default function ServicesList() {
 
         <div className="mt-20 grid grid-cols-1 gap-8 md:grid-cols-3">
           {services.map((service) => (
-            <div
+            <Link
+              to={`/services/${service.title}`}
               key={service.title}
               className="relative bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
             >
@@ -44,7 +85,7 @@ export default function ServicesList() {
               </div>
               <h3 className="mt-8 text-xl font-medium text-gray-900">{service.title}</h3>
               <p className="mt-4 text-gray-500">{service.description}</p>
-            </div>
+            </Link>
           ))}
         </div>
 
