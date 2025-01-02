@@ -38,6 +38,7 @@ export default function ServiceDetails() {
                 <span className="text-gray-900 font-semibold">
                   {service.title}
                 </span>
+                
               </li>
             </ol>
           </nav>
@@ -46,11 +47,11 @@ export default function ServiceDetails() {
 
 
       <div className="max-w-7xl mx-auto px-4 py-10">
-        <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8 sm:grid-cols-12 pap-12">
           <img src={service.details.image} alt={service.title} className="h-96 rounded-lg" />
           <div>
             <div>
-              <h1 className="text-3xl font-bold">{service.title}</h1>
+              <h1 className="text-3xl font-bold d-flex align-items-center">{service.title} <service.icon className="h-6 w-6 ml-3" /></h1>
             </div>
             <div className="mt-4 text-gray-500">
               <p className='py-2 text-xl'>{service.description}</p>

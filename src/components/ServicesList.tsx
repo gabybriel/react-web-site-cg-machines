@@ -9,6 +9,8 @@ import epi from '../assets/images/services/epi.jpg';
 import sefty from '../assets/images/services/sefty.jpg';
 import grue from '../assets/images/services/grue.jpg';
 import pmp from '../assets/images/services/PMP.jpg';
+import environ from '../assets/images/services/eviron.jpg';
+import chimique from '../assets/images/services/chimique.jpg';
 
 
 
@@ -20,17 +22,18 @@ export const services = [
     details: {
       image: fHse,
       content: `
-        <h2>Description</h2>
         <p>Formation approfondie en hygiène, sécurité et environnement adaptée aux besoins spécifiques de votre entreprise.</p>
-        <ul>
-          <li>Gestion des risques professionnels</li>
-          <li>Risque chimique</li>
-          <li>Normes ISO</li>
-          <li>Premiers secours</li>
-          <li>Protection environnementale</li>
+        <ul class="list-group mt-3">
+          <li class="list-group-item">Gestion des risques professionnels</li>
+          <li class="list-group-item">Risque chimique</li>
+          <li class="list-group-item">Normes ISO 9001 vesion 2015</li>
+          <li class="list-group-item">Normes ISO 14001, IS0 45001, 18001</li>
+          <li class="list-group-item">Audit interne</li>
+          <li class="list-group-item">Premiers secours</li>
+          <li class="list-group-item">Protection environnementale</li>
         </ul>
-        <div class="d-flex mt-3 justify-content-between align-items-center">
-          <img class="rounded" height="auto" width="250" src="${epi}" alt="Formation HSE" />
+        <div class="d-flex flex-column flex-sm-row mt-3 justify-content-between align-items-center">
+          <img class="rounded  mb-3 mb-sm-0" height="auto" width="250" src="${epi}" alt="Formation HSE" />
           <img class="rounded" height="auto" width="250" src="${sefty}" alt="Formation Risque" />
         </div>
       `,
@@ -44,38 +47,52 @@ export const services = [
     {
       image: fEngin,
       content:
-      `  <p>Nous formons </p>
-        <ul>
-          <li>Chariot élévateur</li>
-          <li>Grue mobile</li>
-          <li>Engins de chantier</li>
-          <li>Équipements offshore</li>
-          <li>Maintenance préventive</li>
-          <li>Certification professionnelle</li>
+        `  <p>Nous formons et délivrons des <b>Certifactions</b> dans la conduites engin suivants: </p>
+        <ul class="list-group mt-3">
+          <li class="list-group-item">Chariot élévateur</li>
+          <li class="list-group-item">Grue mobile</li>
+          <li class="list-group-item">Grue offshor</li>
+          <li class="list-group-item">Grue à tours et oxiliaire</li>
+          <li class="list-group-item">Équipements offshore</li>
+          <li class="list-group-item">Pont roulant</li>
+          <li class="list-group-item">Engin de chatier</li>
+          <li class="list-group-item">Certification professionnelle</li>
+          <li class="list-group-item">PEMP (Plateforme d'Elévation Mobile des Personnes) </li>
         </ul>
-        <div class="d-flex mt-3 justify-content-between align-items-center">
-          <img class="rounded" height="auto" width="250" src="${grue}" alt="Formation HSE" />
+        <div class="d-flex flex-column flex-sm-row mt-3 justify-content-between align-items-center">
+          <img class="rounded  mb-3 mb-sm-0" height="auto" width="250" src="${grue}" alt="Formation HSE" />
           <img class="rounded" height="auto" width="250" src="${pmp}" alt="Formation Risque" />
         </div>
       `,
     },
-    
-     
+
+
     icon: Truck,
   },
   {
-    title: 'Gestion des Risques',
-    description: 'Évaluation et maîtrise des risques techniques et environnementaux.',
-    details:{
+    title: 'Gestion Environnementale',
+    description: 'Solutions complètes pour la gestion et la protection de l\'environnement.',
+    details: {
       image: fRisk,
       content:
-      `
+        `
       <p></p>
       <p>Nous couvrons :</p>
-      <ul>
-        <li>Audit de sécurité</li>
-        <li>Plan de prévention</li>
+      <ul class="list-group mt-3">
+        <li class="list-group-item">Évaluation d'impact</li>
+        <li class="list-group-item">Gestion des déchets</li>
+        <li class="list-group-item">Développement durable</li>
+        <li class="list-group-item">Conformité réglementaire</li>        
+        <li class="list-group-item">Audit de sécurité</li>
+        <li class="list-group-item">Plan de prévention</li>
+        <li class="list-group-item">Risque humaine</li>
+        <li class="list-group-item">Risque chimique</li>
+        <li class="list-group-item">Risque environnemental</li>
       </ul>
+      <div class="d-flex flex-column flex-sm-row mt-3 justify-content-between align-items-center">
+        <img class="rounded mb-3 mb-sm-0" height="auto" width="250" src="${environ}" alt="" />
+        <img class="rounded" height="auto" width="250" src="${chimique}" alt="" />
+    </div>
     `,
     },
     icon: TreePine,
