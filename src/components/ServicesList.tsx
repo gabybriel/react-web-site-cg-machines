@@ -5,6 +5,14 @@ import fHse from '../assets/images/services/f-hse.jpg';
 import fEngin from '../assets/images/services/f-engin.jpg';
 import fRisk from '../assets/images/services/f-risque.jpg';
 
+import epi from '../assets/images/services/epi.jpg';
+import sefty from '../assets/images/services/sefty.jpg';
+import grue from '../assets/images/services/grue.jpg';
+import pmp from '../assets/images/services/PMP.jpg';
+
+
+
+
 export const services = [
   {
     title: 'Formation HSE',
@@ -13,11 +21,18 @@ export const services = [
       image: fHse,
       content: `
         <h2>Description</h2>
-        <p>Formation complète en <strong>hygiène</strong>, sécurité et environnement pour vos équipes.</p>
+        <p>Formation approfondie en hygiène, sécurité et environnement adaptée aux besoins spécifiques de votre entreprise.</p>
         <ul>
+          <li>Gestion des risques professionnels</li>
           <li>Risque chimique</li>
           <li>Normes ISO</li>
+          <li>Premiers secours</li>
+          <li>Protection environnementale</li>
         </ul>
+        <div class="d-flex mt-3 justify-content-between align-items-center">
+          <img class="rounded" height="auto" width="250" src="${epi}" alt="Formation HSE" />
+          <img class="rounded" height="auto" width="250" src="${sefty}" alt="Formation Risque" />
+        </div>
       `,
     },
     icon: Shield,
@@ -29,11 +44,19 @@ export const services = [
     {
       image: fEngin,
       content:
-      `  <p>Certifications disponibles :</p>
+      `  <p>Nous formons </p>
         <ul>
           <li>Chariot élévateur</li>
           <li>Grue mobile</li>
+          <li>Engins de chantier</li>
+          <li>Équipements offshore</li>
+          <li>Maintenance préventive</li>
+          <li>Certification professionnelle</li>
         </ul>
+        <div class="d-flex mt-3 justify-content-between align-items-center">
+          <img class="rounded" height="auto" width="250" src="${grue}" alt="Formation HSE" />
+          <img class="rounded" height="auto" width="250" src="${pmp}" alt="Formation Risque" />
+        </div>
       `,
     },
     

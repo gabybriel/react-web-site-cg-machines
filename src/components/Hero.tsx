@@ -16,7 +16,7 @@ export default function Hero() {
           Formation et Sécurité Professionnelle
         </h1>
         <p className="mt-6 text-xl text-gray-100 max-w-3xl">
-          Votre partenaire de confiance pour la formation en HSE et la conduite d'engins on/offshore.
+          Votre partenaire de confiance pour la formation en HSE, en management et la conduite d'engins on/offshore.
           Nous accompagnons les entreprises dans la maîtrise des risques techniques, environnementaux et humains.
         </p>
         <div className="mt-10">

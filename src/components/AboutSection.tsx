@@ -16,10 +16,10 @@ export default function AboutSection() {
                   À Propos de CONGO MACHINES
                 </h1>
                 <p className="mt-4 text-xl text-gray-600">
-                  Leader dans la formation professionnelle et la sécurité industrielle en République du Congo.
+                  Leader dans la formation professionnelle et qualifiante ainsi que dans la sécurité industrielle en République du Congo.
                 </p>
                 <p className="mt-6 text-lg text-gray-600">
-                  Depuis notre création, CONGO MACHINES s'est engagée à fournir des formations de haute qualité
+                  Depuis notre création, <b>CONGO MACHINES</b> s'est engagée à fournir des formations de haute qualité
                   et des solutions innovantes en matière de sécurité industrielle. Notre expertise et notre
                   engagement envers l'excellence nous ont permis de devenir un acteur majeur dans le secteur
                   de la formation professionnelle en République du Congo.
