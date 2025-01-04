@@ -1,66 +1,39 @@
-// Import des logos
-import ilogs from '../assets/images/clients/ilogs.jpg';
-import ponticelli from '../assets/images/clients/ponticelli.gif';
-import renco from '../assets/images/clients/renco.png';
-import saris from '../assets/images/clients/saris.jpg';
-import bolore from '../assets/images/clients/bolore.png';
-import perenco from '../assets/images/clients/perenco.png';
+// Import des images
+import img1 from '../assets/images/galeries/EPI001.jpg';
+import img2 from '../assets/images/galeries/EPI002.jpg';
+import img3 from '../assets/images/galeries/EPI003.jpg';
+import img4 from '../assets/images/galeries/EPI004.jpg';
+import img5 from '../assets/images/galeries/EPI005.jpg';
+import img6 from '../assets/images/galeries/EPI006.jpg';
 
 export default function GalerieSections() {
-/*
-    const clients = [
-        { name: 'Ilogs', logo: ilogs },
-        { name: 'Ponticelli', logo: ponticelli },
-        { name: 'bolore', logo: bolore },
-        { name: 'renco', logo: renco },
-        { name: 'prenco', logo: perenco },
-    ];
-    */
 
     return (
         <section className="bg-white-50 py-16">
 
             <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">
-                Nos Réalisations
+                Vente des EPI
             </h2>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+            <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-3 gap-4">
 
                 <div>
-                    <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="" />
+                    <img className="h-auto max-w-full rounded-lg" src={img1} alt="EPI" />
                 </div>
                 <div>
-                    <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt="" />
+                    <img className="h-auto max-w-full rounded-lg" src={img2} alt="" />
                 </div>
                 <div>
-                    <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg" alt="" />
+                    <img className="h-auto max-w-full rounded-lg" src={img3} alt="" />
                 </div>
                 <div>
-                    <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg" alt="" />
+                    <img className="h-auto max-w-full rounded-lg" src={img4} alt="" />
                 </div>
                 <div>
-                    <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" alt="" />
+                    <img className="h-auto max-w-full rounded-lg" src={img5} alt="" />
                 </div>
                 <div>
-                    <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg" alt="" />
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg" alt="" />
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg" alt="" />
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg" alt="" />
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-9.jpg" alt="" />
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-10.jpg" alt="" />
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-11.jpg" alt="" />
-                </div>
+                    <img className="h-auto max-w-full rounded-lg" src={img6} alt="" />
+                </div>                
             </div>
 
         </section>
