@@ -57,9 +57,12 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-8 pt-8 border-t border-gray-700 text-center">
-          <p className="text-gray-300">
+       <div className="mt-8 pt-8 border-t border-gray-700 text-center flex justify-between items-center">
+          <p className="text-gray-300 text-sm">
             © {new Date().getFullYear()} CONGO MACHINES. Tous droits réservés.
+          </p>
+          <p className="text-gray-300 text-sm">
+            By <a href="https://gabybriel.wordpress.com/" target='_blank' className="text-blue-400 hover:text-blue-300 underline">Gaby_Briel</a>
           </p>
         </div>
       </div>
