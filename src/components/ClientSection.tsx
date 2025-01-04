@@ -6,7 +6,7 @@ import ponticelli from '../assets/images/clients/ponticelli.gif';
 import renco from '../assets/images/clients/renco.png';
 import saris from '../assets/images/clients/saris.jpg';
 import bolore from '../assets/images/clients/bolore.png';
-import eni from '../assets/images/clients/eni.png';
+import eni from '../assets/images/clients/cg-eni.png';
 import sclog from '../assets/images/clients/sclog.jpg';
 import peligrini from '../assets/images/clients/pellegrini.jpg';
 import ocean from '../assets/images/clients/ocean.jpg';
