@@ -62,7 +62,7 @@ export default function AboutPage() {
           </div>
         </div>
 
-        <div className="py-16 grid grid-cols-1 gap-8 md:grid-cols-3">
+        <div className="max-w-7xl mx-auto py-16 grid grid-cols-1 gap-8 md:grid-cols-3">
           <div className="bg-gray-50 p-6 rounded-lg shadow-md">
             <Shield className="h-12 w-12 text-yellow-500 mx-auto" />
             <h3 className="mt-4 text-xl font-semibold text-center">Notre Mission</h3>
