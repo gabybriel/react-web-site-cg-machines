@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Shield, Truck, TreePine } from 'lucide-react';
+import { Shield, Truck, TreePine, Settings, ShieldAlert, BadgeCheck } from 'lucide-react';
 import fHse from '../assets/images/services/f-hse.jpg';
 import fEngin from '../assets/images/services/f-engin.jpg';
 import fRisk from '../assets/images/services/f-risque.jpg';
@@ -11,14 +11,17 @@ import grue from '../assets/images/services/grue.jpg';
 import pmp from '../assets/images/services/PMP.jpg';
 import environ from '../assets/images/services/eviron.jpg';
 import chimique from '../assets/images/services/chimique.jpg';
+import manage from '../assets/images/services/manage.jpg';
+import manage1 from '../assets/images/services/manage1.jpg';
+import project from '../assets/images/services/m-projet.png';
 
 
 
 
 export const services = [
   {
-    title: 'Formation HSE',
-    description: 'Formation complète en hygiène, sécurité et environnement pour vos équipes.',
+    title: 'Formation en HSE',
+    description: 'Formations complète en hygiène, sécurité et environnement pour vos équipes.',
     details: {
       image: fHse,
       content: `
@@ -52,7 +55,7 @@ export const services = [
           <li class="list-group-item">Chariot élévateur</li>
           <li class="list-group-item">Grue mobile</li>
           <li class="list-group-item">Grue offshor</li>
-          <li class="list-group-item">Grue à tours et oxiliaire</li>
+          <li class="list-group-item">Grue à tours et auxiliaire</li>
           <li class="list-group-item">Équipements offshore</li>
           <li class="list-group-item">Pont roulant</li>
           <li class="list-group-item">Engin de chatier</li>
@@ -96,6 +99,75 @@ export const services = [
     `,
     },
     icon: TreePine,
+  },
+  {
+    title: 'Management et Gestion de Projets',
+    description: 'Management et Gestion complètes des projets',
+    details: {
+      image: manage,
+      content:
+        `
+      <p></p>
+      <p>Nous couvrons :</p>
+      <ul class="list-group mt-3">
+        <li class="list-group-item"> Le management de projets</li>
+        <li class="list-group-item">Le management des équipes</li>
+        <li class="list-group-item">La gouvernance des projets</li>
+        <li class="list-group-item">Le risque lié à la réalisation des projets</li>        
+      </ul>
+      <div class="d-flex flex-column flex-sm-row mt-3 justify-content-between align-items-center">
+        <img class="rounded mb-3 mb-sm-0" height="auto" width="250" src="${manage1}" alt="" />
+        <img class="rounded" height="auto" width="250" src="${project}" alt="" />
+    </div>
+    `,
+    },
+    icon: Settings,
+  },
+  {
+    title: 'Sécurité Industrielle',
+    description: 'Expertise en sécurité industrielle et prévention des risques.',
+    details: {
+      image: sefty,
+      content:
+        `
+      <p></p>
+      <p>Nous couvrons :</p>
+      <ul class="list-group mt-3">
+        <li class="list-group-item"> Audit de sécurité</li>
+        <li class="list-group-item">Plans d\'urgence</li>
+        <li class="list-group-item">Équipements de protection</li>
+        <li class="list-group-item">Procédures de sécurité</li>        
+      </ul>
+      <div class="d-flex flex-column flex-sm-row mt-3 justify-content-between align-items-center">
+        <img class="rounded mb-3 mb-sm-0" height="auto" width="250" src="${fHse}" alt="" />
+        <img class="rounded" height="auto" width="250" src="${epi}" alt="" />
+    </div>
+    `,
+    },
+    icon: ShieldAlert,
+  },
+  {
+    title: 'Audit et Certification',
+    description: 'Services d\'audit et accompagnement vers la certification.',
+    details: {
+      image: fRisk,
+      content:
+        `
+      <p></p>
+      <p>Nous couvrons :</p>
+      <ul class="list-group mt-3">
+        <li class="list-group-item"> Audit qualité</li>
+        <li class="list-group-item">Préparation certification</li>
+        <li class="list-group-item">Conformité normes</li>
+        <li class="list-group-item">Amélioration continu</li>        
+      </ul>
+      <div class="d-flex flex-column flex-sm-row mt-3 justify-content-between align-items-center">
+        <img class="rounded mb-3 mb-sm-0" height="auto" width="250" src="${environ}" alt="" />
+        <img class="rounded" height="auto" width="250" src="${chimique}" alt="" />
+    </div>
+    `,
+    },
+    icon: BadgeCheck,
   },
 ];
 

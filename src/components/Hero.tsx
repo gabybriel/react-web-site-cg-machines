@@ -13,10 +13,10 @@ export default function Hero() {
       </div>
       <div className="relative flex flex-col items-center justify-center max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
         <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
-          Formation et Sécurité Professionnelle
+          Formations et Sécurité Professionnelle
         </h1>
         <p className="mt-6 text-xl text-gray-100 max-w-3xl">
-          Votre partenaire de confiance pour la formation en HSE, en management et la conduite d'engins on/offshore.
+          Votre partenaire de confiance pour la formations en HSE, en management et la conduite d'engins on/offshore.
           Nous accompagnons les entreprises dans la maîtrise des risques techniques, environnementaux et humains.
         </p>
         <div className="mt-10">
