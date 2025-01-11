@@ -8,7 +8,7 @@ import fRisk from '../assets/images/services/f-risque.jpg';
 import epi from '../assets/images/services/epi.jpg';
 import sefty from '../assets/images/services/sefty.jpg';
 import grue from '../assets/images/services/grue.jpg';
-import pmp from '../assets/images/services/PMP.jpg';
+import pmp from '../assets/images/services/pmp.jpg';
 import environ from '../assets/images/services/eviron.jpg';
 import chimique from '../assets/images/services/chimique.jpg';
 import manage from '../assets/images/services/manage.jpg';
