@@ -15,9 +15,6 @@ import manage from '../assets/images/services/manage.jpg';
 import manage1 from '../assets/images/services/manage1.jpg';
 import project from '../assets/images/services/m-projet.png';
 
-
-
-
 export const services = [
   {
     title: 'Formation en HSE',

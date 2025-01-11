@@ -57,7 +57,11 @@ export default function Footer() {
           </div>
         </div>
 
+<<<<<<< HEAD
         <div className="mt-8 pt-8 border-t border-gray-700 text-center flex justify-between items-center">
+=======
+       <div className="mt-8 pt-8 border-t border-gray-700 text-center flex justify-between items-center">
+>>>>>>> dad864c44c09cfecb02882054b75dc6a308f0443
           <p className="text-gray-300 text-sm">
             © {new Date().getFullYear()} CONGO MACHINES. Tous droits réservés.
           </p>
